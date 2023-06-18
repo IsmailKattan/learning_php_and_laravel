@@ -1,0 +1,23 @@
+<?php 
+
+/*
+  break 
+  clone 
+  die()
+  exit()
+  global
+  list()
+  function 
+  var
+  throw
+  public 
+  private 
+  static 
+  use 
+  or 
+  and 
+  echo 
+  print 
+  new 
+  impelements
+*/
