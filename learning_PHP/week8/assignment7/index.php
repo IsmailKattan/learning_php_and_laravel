@@ -17,4 +17,4 @@ echo current($names) . "<br>"; // "Osama"
 end($names);
 prev($names);
 
-echo current($names) . "<br>"; // "Mahmoud"
+echo current($names) . "<br>"; // "Mahmoud" 

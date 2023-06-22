@@ -22,7 +22,14 @@ print_r($chars);
 echo "</pre>";
 
 $chars = ["A", "B", "C"];
-$chars = $chars + ["D"];
+array_splice($chars, count($chars),0, "D");
+
+echo "<pre>";
+print_r($chars);
+echo "</pre>";
+
+$chars = ["A", "B", "C"];
+$chars = array_replace($chars, [count($chars) => "D"]);
 
 echo "<pre>";
 print_r($chars);
@@ -35,4 +42,4 @@ Array
   [2] => C
   [3] => D
 )
-*/
+*/ 
